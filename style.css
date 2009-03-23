@@ -1,0 +1,114 @@
+body {
+background-color:#AC45DF;
+margin:0;
+padding:0;
+font-size:.8em;
+}
+h1 {
+font-size:3em;
+}
+h1, h2, p {
+text-align:left;
+margin:0.2em 0;
+}
+
+
+
+#page {
+background-color:#fff;
+width:500px;
+margin:0 auto;
+text-align:center;
+padding:1em;
+}
+
+#content {
+border:1px #AC45DF solid;
+background-color:#D78FFF;
+padding:1em;
+}
+
+#content a, input {
+font-size:2em;
+}
+
+#results {
+text-align:center;
+font-size:1.3em;
+padding:1em;
+}
+
+
+#results dt{
+font-weight:bolder;
+}
+#results dd {
+float:right;
+margin-top:-1.2em;
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid WindowFrame;
+	background-color: Window;
+	overflow: hidden;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results iframe {
+	display:none;/*sorry for IE5*/
+	display/**/:block;/*sorry for IE5*/
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	filter:mask();
+	width:3000px;
+	height:3000px;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	font: menu;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background : Window url('./indicator.gif') right center no-repeat;
+}
+
+.ac_over {
+	background-color: Highlight;
+	color: HighlightText;
+}
+
+h3 {
+display:inline;
+}
+ul#options {
+text-align:left;
+list-style:none;
+padding:0;
+
+}
+ul#options div {
+display:inline;
+margin-right:1em;
+
+}
+ul#options div a{
+color:#999;
+}
+
